@@ -1,0 +1,7 @@
+{
+  "version": "1.4.0",
+  "checks": 344,
+  "result": "passed",
+  "formula": "min((MBD*0.11),(actorMissingHealth*0.10))",
+  "scope": "Native owner binding, integer rounding, cap and Block/Tough/Vulnerable; stubbed dependencies; not full game combat."
+}

@@ -1,0 +1,17 @@
+{
+  "id": 3813933277,
+  "name": "Boss Courts",
+  "language": "schinese",
+  "tags": [
+    "Monsters",
+    "World Modifiers",
+    "Balance"
+  ],
+  "description": "Adds 13 regional bosses using existing artwork. Recalibrated for wounded entry and native hero HP; full combat balance testing pending. Original guardians remain; new bosses excluded from catacombs.",
+  "visibility": 0,
+  "imagePath": "",
+  "localContentPath": "",
+  "lastChangeNote": "1.4.0: wounded-entry balance pass for 13 bosses; bounded 10% scheduled Thorn Reprisal; stronger Cinders; all Hydra heads active; native skill icons.",
+  "minVersion": 63,
+  "maxVersion": 63
+}

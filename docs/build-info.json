@@ -1,0 +1,272 @@
+{
+  "name": "Boss Courts",
+  "version": "1.4.0",
+  "gameVersion": "63",
+  "gameBuild": "2021",
+  "bosses": [
+    {
+      "name": "Ashwing",
+      "id": "9701",
+      "asset": "phoenix",
+      "region": "plains",
+      "source": "Phoenix",
+      "strategy": "Two half-base-HP lives. No on-hit fire. Cinders every third round; low-life Dive exposes the boss.",
+      "chineseName": "灰烬之翼",
+      "mechanics": "两条各 48% 基础血量的生命\n每三轮烧一件装备，W1 为 5 点\n低血扑击 18 点，随后自身易伤",
+      "counter": "留资源应对第二条生命；避免急用燃烧装备，利用扑击后的易伤反攻。",
+      "origin": "active-monster",
+      "hpMultiplier": 0.48
+    },
+    {
+      "name": "Old Thorn",
+      "id": "9702",
+      "asset": "tanglewood",
+      "region": "swamp",
+      "source": "Tanglewood",
+      "strategy": "EVEN rounds: one Thorn Reprisal, 10% of own missing life, capped at [MBD*0.11]. ODD rounds: no reprisal. No 50% CounterAttack status.",
+      "chineseName": "老荆棘",
+      "mechanics": "偶数轮一次荆棘反攻：自身已损失血量的 10%\n伤害上限 MBD×11%，W2 为 8 点，可格挡\n奇数轮不反击；低血治疗最多两次",
+      "counter": "奇数轮集中输出；偶数轮用护盾挡住反攻。多次小伤害不会触发多次反击。",
+      "origin": "dormant-boss",
+      "hpMultiplier": 0.7
+    },
+    {
+      "name": "Three Kings",
+      "id": "9703",
+      "asset": "hydra",
+      "region": "desert",
+      "source": "Hydra",
+      "strategy": "All three heads are active at any life. K/Q/J share the same hand; each head has Cooldown 1. Jack exposes the boss.",
+      "chineseName": "三王",
+      "mechanics": "三头均可行动，K/Q/J 共用手牌\n每个头冷却一轮，降低单头系数\nJ 雷击后自身易伤",
+      "counter": "观察三种王牌，优先换走关键牌；利用各头冷却和雷击后的易伤。",
+      "origin": "active-monster",
+      "hpMultiplier": 0.85
+    },
+    {
+      "name": "River Serpent",
+      "id": "9704",
+      "asset": "leviathan",
+      "region": "sea",
+      "source": "Leviathan",
+      "strategy": "Tide Block every other round. Devour on rounds 5/10/15; no Undertow on the following round.",
+      "chineseName": "河牌巨蛇",
+      "mechanics": "每两轮获得少量护盾\n第五轮吞噬，第六轮停攻\n吞噬后自身易伤",
+      "counter": "护盾量随进度缩放；第五轮先防御，下一轮利用停攻和易伤输出。",
+      "origin": "active-monster",
+      "hpMultiplier": 0.9
+    },
+    {
+      "name": "Thunder Giant",
+      "id": "9705",
+      "asset": "storm_titan",
+      "region": "mountains",
+      "source": "Storm Titan",
+      "strategy": "Storm Pact supplies ONE shared full-power lightning strike every other round; no mutual damage.",
+      "chineseName": "雷霆巨人",
+      "mechanics": "每两轮补充 Ionize 1\n三红牌雷击，黑牌防御\n双方争夺满功率雷击",
+      "counter": "有雷击装备可抢先消耗共享机会；也可换走红牌，让它花牌防御。",
+      "origin": "active-monster",
+      "hpMultiplier": 0.85
+    },
+    {
+      "name": "Black Sail",
+      "id": "9706",
+      "asset": "lady_blackheart",
+      "region": "sea",
+      "source": "Lady Blackheart",
+      "strategy": "Pairs Hex ONE item and return the boss cards. No Stun. Broadside makes the boss Weak 2.",
+      "chineseName": "黑帆",
+      "mechanics": "对子 Hex 一件装备并返牌\n不再弃掉玩家全部手牌\n炮击后自身虚弱两轮",
+      "counter": "对子会返还给黑帆继续行动；趁 Hex 冷却或炮击后的虚弱窗口交换伤害。",
+      "origin": "dormant-boss",
+      "hpMultiplier": 0.85
+    },
+    {
+      "name": "Storm Sovereign",
+      "id": "9707",
+      "asset": "the_storm_lord",
+      "region": "mountains",
+      "source": "Storm Titan",
+      "strategy": "Five-round cycle: rest / ramp / ramp / telegraph / burst. Ramp is capped; first round is safe.",
+      "chineseName": "风暴领主",
+      "mechanics": "第二、三轮：攻击逐次增强\n第四轮蓄势，第五轮重击\n第六轮停攻；强化有上限",
+      "counter": "第 4/9/14 轮备防御；重击后的下一轮集中输出，不宜无限拖延。",
+      "origin": "unfinished-definition",
+      "hpMultiplier": 0.9
+    },
+    {
+      "name": "Crowned Titan",
+      "id": "9708",
+      "asset": "titan_lord",
+      "region": "mountains",
+      "source": "Titan Lord",
+      "strategy": "Every hit draws one card. Four-card Straight causes a heavy attack and Vulnerable; Ward stops below 40% life.",
+      "chineseName": "泰坦领主",
+      "mechanics": "每次受击立即抽一张牌\n四连顺重击后自身易伤\n低血后护盾关闭",
+      "counter": "减少低伤连击，别帮它凑出四连顺；低血时失去护盾，可集中结束战斗。",
+      "origin": "dormant-region-boss",
+      "hpMultiplier": 0.85
+    },
+    {
+      "name": "Underqueen",
+      "id": "9709",
+      "asset": "the_underqueen",
+      "region": "swamp",
+      "source": "The Underqueen",
+      "strategy": "Hex on rounds 1/5/9; Freeze on 3/7/11. They never coincide; even rounds have only card-based attack.",
+      "chineseName": "地下女王",
+      "mechanics": "1/5/9 轮：Hex 一件\n3/7/11 轮：冻结一件\n偶数轮只有牌型攻击",
+      "counter": "控制严格错开；留小牌解冻、准备备用装备，在偶数轮集中使用关键装备。",
+      "origin": "dormant-boss",
+      "hpMultiplier": 0.85
+    },
+    {
+      "name": "Azure Dragon",
+      "id": "9710",
+      "asset": "blue_dragon",
+      "region": "sea",
+      "source": "Storm Titan",
+      "strategy": "12-round cycle: Ice 1-3 / rest 4 / Storm 5-7 / rest 8 / Fire 9-11 / rest 12. Repeat.",
+      "chineseName": "蓝龙",
+      "mechanics": "冰 1–3、雷 5–7、火 9–11\n每段之间一轮停攻\n循环重复，三个阶段可控",
+      "counter": "冰段留解冻牌，雷段抢 Ionize，火段调整装备使用；4/8/12 轮是输出窗口。",
+      "origin": "portrait-only",
+      "hpMultiplier": 0.85
+    },
+    {
+      "name": "The Reassembled",
+      "id": "9711",
+      "asset": "frankensteins_monster",
+      "region": "swamp",
+      "source": "Phoenix",
+      "strategy": "Above 50%: stitched attacks. At 50% or less: rage; Slam every fourth round, followed by no attacks. No revival.",
+      "chineseName": "弗兰肯斯坦怪物",
+      "mechanics": "半血前：缝合与小额毒伤\n半血后：高伤拳击与重击\n重击下一轮停攻，无复活",
+      "counter": "半血前准备爆发；跨血线后注意四轮重击周期，在停攻轮反击。",
+      "origin": "portrait-only",
+      "hpMultiplier": 0.85
+    },
+    {
+      "name": "Queen of Clubs",
+      "id": "9712",
+      "asset": "queen_of_clubs",
+      "region": "plains",
+      "source": "Sergeant Toad",
+      "strategy": "Uses HER OWN Clubs: two for Gambit, one for Guard. Hearts heal twice only; player draws never trigger punishment.",
+      "chineseName": "梅花王后",
+      "mechanics": "两梅花豪赌后自身易伤\n同一批梅花也用于防御\n红心治疗，仅两次",
+      "counter": "观察王后自己的梅花和红心；两梅花爆发后利用易伤，治疗有明确上限。",
+      "origin": "portrait-only",
+      "hpMultiplier": 0.9
+    },
+    {
+      "name": "Obsidian Smith",
+      "id": "9713",
+      "asset": "evil_dwarf",
+      "region": "desert",
+      "source": "Count Spade",
+      "strategy": "Six-round forge cycle: rest 1-2 / forge 3-4 / telegraph 5 / hammer 6. Hammer exposes the smith.",
+      "chineseName": "邪恶矮人",
+      "mechanics": "3/4 轮：锻造护盾与攻击\n第 5 轮预告，第 6 轮砸锤\n1/2 轮停炉，循环重复",
+      "counter": "第 5/11/17 轮准备防御；重击后有两轮停炉，集中输出，避免护盾累积。",
+      "origin": "portrait-only",
+      "hpMultiplier": 0.9
+    }
+  ],
+  "worldGuardianCount": 18,
+  "catacombsPoolSize": 5,
+  "newBossesInCatacombs": false,
+  "newRegions": 0,
+  "regionVariantRecords": 14,
+  "newRegionNames": 0,
+  "bundledGameImages": 0,
+  "launcherRequired": false,
+  "bossSelection": "native CSV region variants with unique IDs and original names/assets",
+  "regionVariants": [
+    {
+      "id": "9801",
+      "region": "plains",
+      "boss": "Ashwing"
+    },
+    {
+      "id": "9802",
+      "region": "swamp",
+      "boss": "Old Thorn"
+    },
+    {
+      "id": "9803",
+      "region": "desert",
+      "boss": "Three Kings"
+    },
+    {
+      "id": "9804",
+      "region": "sea",
+      "boss": "River Serpent"
+    },
+    {
+      "id": "9805",
+      "region": "mountains",
+      "boss": "Thunder Giant"
+    },
+    {
+      "id": "9806",
+      "region": "sea",
+      "boss": "Black Sail"
+    },
+    {
+      "id": "9807",
+      "region": "mountains",
+      "boss": "Storm Sovereign"
+    },
+    {
+      "id": "9808",
+      "region": "mountains",
+      "boss": "Crowned Titan"
+    },
+    {
+      "id": "9809",
+      "region": "swamp",
+      "boss": "Underqueen"
+    },
+    {
+      "id": "9810",
+      "region": "sea",
+      "boss": "Azure Dragon"
+    },
+    {
+      "id": "9811",
+      "region": "swamp",
+      "boss": "The Reassembled"
+    },
+    {
+      "id": "9812",
+      "region": "plains",
+      "boss": "Queen of Clubs"
+    },
+    {
+      "id": "9813",
+      "region": "desert",
+      "boss": "Obsidian Smith"
+    },
+    {
+      "id": "9890",
+      "region": "desert",
+      "boss": "Great Sandwyrm"
+    }
+  ],
+  "biomeProbabilities": {
+    "world1": {
+      "plains": 1
+    },
+    "world2": {
+      "swamp": 0.5,
+      "desert": 0.5
+    },
+    "world3": {
+      "mountains": 0.5,
+      "sea": 0.5
+    }
+  },
+  "runtimeStatus": "1.4.0 native startup and map generation passed; full combat balance testing pending"
+}
