@@ -1,5 +1,17 @@
 # Boss Courts 1.4.0
 
+## 工坊旧版升级
+
+原版 Mod Manager 可能保留旧版本地副本，即使 Steam 已下载新版；仅取消订阅再订阅或重新勾选也可能仍加载旧数据。首次安装没有旧副本时，无需以下清理步骤。
+
+1. 关闭游戏，打开 Mod Manager，找到 Boss Courts，点击 **Details → Delete Mod** 并确认。这只删除本地模组副本，不删除存档；保持工坊订阅。
+2. 关闭并重新打开 Mod Manager，让它从 Steam 已下载的最新版重新导入 Boss Courts。
+3. 重新勾选 Boss Courts；同时使用 Travel Run 时，保留 Travel Run 勾选。只启用一份 Boss Courts。
+4. 点击 **Run Game** 重新应用并启动游戏，开始新一局。
+
+1.4.0 可用 Ashwing 检查：第一关周期灼烧为 5 点，左右技能图为 Flare / Firestorm；中间火焰图不变。管理器的 Game Version 列是游戏兼容版本，不是模组版本。
+
+
 为原版平原、沼泽、沙漠、雪山、海洋扩充 13 位区域 Boss。保留原版守关者和最终 Joker，新增 Boss 不进入普通遭遇或墓穴。
 
 ## 安装

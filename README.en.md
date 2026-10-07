@@ -1,5 +1,17 @@
 # Boss Courts 1.4.0
 
+## Upgrading an existing Workshop installation
+
+The native Mod Manager can retain an old local copy after Steam downloads an update. Resubscribing or toggling the mod may still load the old data. A first-time installation without a local copy does not need this cleanup.
+
+1. Close the game. In Mod Manager, open Boss Courts **Details → Delete Mod** and confirm. This removes the local mod copy, not saves. Keep your Workshop subscription.
+2. Close and reopen Mod Manager so it imports Boss Courts from Steam's updated download.
+3. Enable Boss Courts again. If using Travel Run, keep Travel Run enabled. Enable only one copy of Boss Courts.
+4. Click **Run Game** to apply and launch, then start a new run.
+
+In 1.4.0, Ashwing's World 1 periodic Enflame is 5; the left/right ability images are Flare / Firestorm. The middle fire image is unchanged. The manager's Game Version column shows game compatibility, not the mod version.
+
+
 Adds 13 regional bosses using existing Poker Quest artwork. Original guardians and final Jokers remain; new bosses are excluded from normal encounters and catacombs.
 
 Subscribe, enable and apply in the game's Mod Manager, restart and start a NEW RUN. Disable Random Bosses. Enable only one copy of Boss Courts.
